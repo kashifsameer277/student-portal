@@ -168,6 +168,7 @@ const Dashboard = () => {
       <div className="dashboard-header">
         <div className="dashboard-nav">
           <div className="dashboard-title">
+             <h1> Radiant Coaching Centre (RCC)</h1>
             <h1>🎓 Student Portal</h1>
             <p>Welcome, {user?.name}</p>
           </div>

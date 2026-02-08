@@ -92,6 +92,7 @@ const Signup = () => {
     <div className="auth-container">
       <div className="auth-card" style={{ maxWidth: '700px' }}>
         <div className="auth-header">
+        <h1> Radiant coaching Centre (RCC)</h1>
           <h1>🎓 Student Portal</h1>
           <p>Create your account</p>
         </div>
