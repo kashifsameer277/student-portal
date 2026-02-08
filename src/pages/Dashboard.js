@@ -77,16 +77,16 @@ const Dashboard = () => {
     setAllUsers(users);
   };
 
-  const loadAllResults = async () => {
-    try {
-      const response = await fetchAllResults();
-      if (response.success) {
-        setAllResults(response.data);
-      }
-    } catch (err) {
-      console.error('Error loading all results:', err);
-    }
-  };
+  // const loadAllResults = async () => {
+  //   try {
+  //     const response = await fetchAllResults();
+  //     if (response.success) {
+  //       setAllResults(response.data);
+  //     }
+  //   } catch (err) {
+  //     console.error('Error loading all results:', err);
+  //   }
+  // };
 
   const handleLogout = () => {
     logout();
